@@ -1,0 +1,20 @@
+:root {
+  --color1: #262525;
+  --color2: #daa520;
+  --color3: black;
+  --color4: whitesmoke;
+  --color5: rgb(96, 34, 96);
+  --color6: rgb(221, 128, 185);
+  --color7: orange;
+}
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  font-family: "Inter", serif;
+}
+
+body {
+  background: var(--color1);
+}
