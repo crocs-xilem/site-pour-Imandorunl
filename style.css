@@ -113,3 +113,49 @@ nav img {
 #check {
   display: none;
 }
+
+.main-un {
+  display: flex;
+  justify-content: space-around;
+  width: 70%;
+  margin: auto;
+}
+
+.un-container {
+  border: #daa520 3px;
+}
+
+.un img {
+  max-width: 270px;
+  height: 450px;
+  z-index: -1;
+  border-radius: 30px;
+  border: #daa520 3px solid;
+}
+
+#img-un {
+  width: 100%;
+  background: #262525c7;
+  height: 160px;
+  position: relative;
+  margin-top: -163px;
+  border: #daa520 3px solid;
+  border-radius: 30px;
+}
+
+.barre {
+  background: #daa5203b;
+  height: 1px;
+  width: 100%;
+  position: absolute;
+  top: 500px;
+  z-index: -1;
+  box-shadow: #daa52079 0 0 65px 20px;
+}
+
+.text-un h1 {
+  color: #fff;
+  font-size: 2rem;
+  text-align: center;
+  margin-top: 90px;
+}
