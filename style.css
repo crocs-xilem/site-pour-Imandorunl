@@ -82,6 +82,10 @@ nav img {
   margin-top: 0px;
 }
 
+#jaune {
+  color: #daa520;
+}
+
 .box .search-box {
   position: relative;
   height: 35px;
