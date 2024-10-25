@@ -18,6 +18,11 @@ nav {
   margin-top: 50px;
 }
 
+nav #ul1 a {
+  text-decoration: none;
+  color: black;
+}
+
 nav #ul1 {
   display: flex;
   justify-content: space-between;
@@ -36,6 +41,8 @@ nav #li1 {
   text-align: center;
   border-radius: 150px;
   box-shadow: #daa5202b -1px 14px 30px 5px;
+  text-decoration: none;
+  color: black;
 }
 nav #li3,
 #li2 {
@@ -65,7 +72,7 @@ nav #li3 {
   text-decoration: none;
   display: block;
 }
-.dropdown:active .dropdown-child {
+.dropdown:hover .dropdown-child {
   display: block;
 }
 
@@ -200,4 +207,135 @@ nav img {
 
 #jaune {
   color: #daa520;
+}
+
+.deux {
+  margin-top: 100px;
+}
+
+.deux-containeur {
+  display: flex;
+  width: 75%;
+  margin: auto;
+  justify-content: center;
+}
+
+.deux1 {
+  border: solid 3px #daa52098;
+  height: 400px;
+  width: 500px;
+  box-shadow: inset #daa52035 0px 4px 60px 5px;
+}
+
+.deux2 {
+  border: solid 3px #daa52098;
+  height: 400px;
+  width: 500px;
+  box-shadow: #daa52059 0px -6px 60px 10px;
+}
+
+.deux3 {
+  border: solid 3px #daa52098;
+  height: 400px;
+  width: 500px;
+  box-shadow: inset #daa52035 0px 4px 60px 5px;
+}
+
+.deux1 h1 {
+  color: white;
+  text-align: center;
+  margin-top: 40px;
+  font-size: 2.5rem;
+}
+
+.deux1 p {
+  color: white;
+  margin-top: 40px;
+  font-size: 1.3rem;
+  text-align: center;
+}
+
+.btn1 {
+  text-align: center;
+}
+
+.btn1 button {
+  margin-top: 60px;
+  background: rgba(0, 0, 0, 0.312);
+  border: none;
+  border-radius: 150px;
+  height: 40px;
+  width: 35%;
+}
+
+.btn1 a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.2rem;
+}
+
+.deux2 h1 {
+  color: white;
+  text-align: center;
+  margin-top: 40px;
+  font-size: 2.5rem;
+}
+
+.deux2 p {
+  color: white;
+  margin-top: 40px;
+  font-size: 1.3rem;
+  text-align: center;
+}
+
+.btn2 {
+  text-align: center;
+}
+
+.btn2 button {
+  margin-top: 60px;
+  background: rgba(0, 0, 0, 0.312);
+  border: none;
+  border-radius: 150px;
+  height: 40px;
+  width: 35%;
+}
+
+.btn2 a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.2rem;
+}
+
+.deux3 h1 {
+  color: white;
+  text-align: center;
+  margin-top: 40px;
+  font-size: 2.5rem;
+}
+
+.deux3 p {
+  color: white;
+  margin-top: 40px;
+  font-size: 1.3rem;
+  text-align: center;
+}
+
+.btn3 {
+  text-align: center;
+}
+
+.btn3 button {
+  margin-top: 60px;
+  background: rgba(0, 0, 0, 0.312);
+  border: none;
+  border-radius: 150px;
+  height: 40px;
+  width: 35%;
+}
+
+.btn3 a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.2rem;
 }
