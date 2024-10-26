@@ -339,3 +339,79 @@ nav img {
   color: white;
   font-size: 1.2rem;
 }
+
+.text-trois-container {
+  display: flex;
+  width: 55%;
+  margin: auto;
+  margin-top: 120px;
+}
+
+.trois-logo img {
+  height: 80px;
+  background: #daa520a4;
+  border-radius: 500px;
+  box-shadow: #daa520 0px 0px 50px 15px;
+  border: transparent;
+}
+
+.trois-text {
+  color: white;
+  font-size: 1.8rem;
+  margin-left: 60px;
+  align-items: center;
+  margin-top: 10px;
+  text-decoration: underline var(--color2);
+}
+
+.trois-img-container {
+  display: flex;
+  width: 60%;
+  margin: auto;
+  justify-content: space-between;
+  margin-top: 80px;
+}
+
+.trois-img-container img {
+  max-width: 270px;
+  height: 450px;
+  z-index: -1;
+  border-radius: 30px;
+  border: #daa520 3px solid;
+}
+
+.img-trois {
+  width: 100%;
+  background: #262525c7;
+  height: 160px;
+  position: relative;
+  margin-top: -163px;
+  border: #daa520 3px solid;
+  border-radius: 30px;
+}
+
+.button-scroll #button-trois-scroll {
+  background: rgba(255, 255, 255, 0.152);
+  height: 10px;
+  width: 10px;
+  display: inline-block;
+  border-radius: 150px;
+  margin: auto;
+}
+
+.button-scroll {
+  background: #0b0b0b6b;
+  width: 5%;
+  border-radius: 150px;
+  text-align: center;
+}
+
+.trois-button-scroll {
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+}
+
+#button-trois-scroll:hover {
+  background: #daa520;
+}
