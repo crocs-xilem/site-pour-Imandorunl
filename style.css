@@ -339,3 +339,290 @@ nav img {
   color: white;
   font-size: 1.2rem;
 }
+
+.text-trois-container {
+  display: flex;
+  width: 55%;
+  margin: auto;
+  margin-top: 120px;
+}
+
+.trois-logo img {
+  height: 80px;
+  background: #daa520a4;
+  border-radius: 500px;
+  box-shadow: #daa520 0px 0px 50px 15px;
+  border: transparent;
+}
+
+.trois-text {
+  color: white;
+  font-size: 1.8rem;
+  margin-left: 60px;
+  align-items: center;
+  margin-top: 10px;
+  text-decoration: underline var(--color2);
+}
+
+.trois-img-container {
+  display: flex;
+  width: 60%;
+  margin: auto;
+  justify-content: space-between;
+  margin-top: 80px;
+}
+
+.trois-img-container img {
+  max-width: 270px;
+  height: 450px;
+  z-index: -1;
+  border-radius: 30px;
+  border: #daa520 3px solid;
+}
+
+.img-trois {
+  width: 100%;
+  background: #262525c7;
+  height: 160px;
+  position: relative;
+  margin-top: -163px;
+  border: #daa520 3px solid;
+  border-radius: 30px;
+}
+
+.button-scroll #button-trois-scroll {
+  background: rgba(255, 255, 255, 0.152);
+  height: 10px;
+  width: 10px;
+  display: inline-block;
+  border-radius: 150px;
+  margin: auto;
+}
+
+.button-scroll {
+  background: #0b0b0b6b;
+  width: 5%;
+  border-radius: 150px;
+  text-align: center;
+}
+
+.trois-button-scroll {
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+}
+
+#button-trois-scroll:hover {
+  background: #daa520;
+}
+
+.logo-trois-container {
+  display: flex;
+  width: 56%;
+  margin: auto;
+  margin-top: 80px;
+}
+
+.logo-quatre i {
+  font-size: 4.8rem;
+  color: #daa520;
+}
+
+.txt-quatre {
+  font-size: 2rem;
+  margin-left: 40px;
+  margin-top: 10px;
+}
+
+.txt-quatre h1 {
+  color: white;
+}
+
+.img-quatre-container {
+  display: flex;
+  width: 80%;
+  margin: auto;
+  justify-content: space-between;
+  margin-top: 60px;
+}
+
+.img-qutre {
+  background: rgba(0, 0, 0, 0.325);
+  border-radius: 20px;
+}
+
+.text-img-quatre {
+  color: white;
+  margin-top: -65px;
+  text-align: center;
+}
+
+#txt-buger-quatre {
+  margin-top: -95px;
+}
+
+.logo-cinq-container {
+  display: flex;
+  width: 80%;
+  margin: auto;
+  margin-top: 80px;
+}
+
+.logo-cinq img {
+  height: 60px;
+  width: 60px;
+}
+
+.txt-cinq {
+  font-size: 2rem;
+  margin-top: 25px;
+}
+
+.txt-cinq h1 {
+  color: white;
+}
+
+.cinq-img-container {
+  display: flex;
+  width: 75%;
+  margin: auto;
+  justify-content: space-between;
+  margin-top: 80px;
+}
+
+.cinq-img-container img {
+  max-width: 270px;
+  height: 450px;
+  z-index: -1;
+  border-radius: 30px;
+  border: #daa520 3px solid;
+}
+
+.img-cinq {
+  width: 100%;
+  background: #262525c7;
+  height: 160px;
+  position: relative;
+  margin-top: -163px;
+  border: #daa520 3px solid;
+  border-radius: 30px;
+}
+
+.six {
+  height: 800px;
+  width: 60%;
+  margin: auto;
+  background: #daa52016;
+  margin-top: 90px;
+  border-radius: 50px;
+}
+
+.msg-container1 {
+  display: flex;
+  padding-top: 40px;
+  justify-content: flex-end;
+  padding-right: 40px;
+}
+
+.Gardien-six-1 {
+  background: white;
+  min-width: 200px;
+  min-height: 180px;
+  max-width: 300px;
+  max-height: 220px;
+  border-radius: 20px;
+  clip-path: polygon(
+    0% 0%,
+    100% 0,
+    100% 73%,
+    100% 80%,
+    100% 100%,
+    66% 73%,
+    0 73%
+  );
+}
+
+.Gardien-six-1 h2 {
+  text-align: center;
+}
+
+.profil-six1 {
+  padding-top: 150px;
+}
+
+.msg-container2 {
+  display: flex;
+  padding-left: 20px;
+}
+
+.Gardien-six-2 {
+  background: white;
+  min-width: 300px;
+  min-height: 180px;
+  max-width: 400px;
+  max-height: 220px;
+  border-radius: 20px;
+  clip-path: polygon(0% 0%, 100% 0%, 100% 74%, 31% 75%, 0 100%, 0 75%, 0 75%);
+}
+
+.Gardien-six-2 h2 {
+  text-align: center;
+  padding-top: 10px;
+}
+
+.profil-six2 {
+  padding-top: 150px;
+}
+
+.msg-container3 {
+  display: flex;
+
+  padding-right: 40px;
+  flex-direction: row-reverse;
+}
+
+.Gardien-six-3 {
+  background: white;
+  min-width: 200px;
+  min-height: 180px;
+  max-width: 300px;
+  max-height: 220px;
+  border-radius: 20px;
+  clip-path: polygon(
+    0% 0%,
+    100% 0,
+    100% 73%,
+    100% 80%,
+    100% 100%,
+    66% 73%,
+    0 73%
+  );
+}
+
+.Gardien-six-3 h2 {
+  text-align: center;
+}
+
+.profil-six3 {
+  padding-top: 150px;
+}
+
+.button-six {
+  text-align: center;
+}
+
+.button-six button {
+  height: 55px;
+  width: 200px;
+  color: white;
+  background: rgb(160, 148, 148);
+  border: transparent;
+  border-radius: 13px;
+  font-size: 1.5rem;
+}
+
+.button-six a {
+  text-align: center;
+  text-decoration: none;
+  color: white;
+}
